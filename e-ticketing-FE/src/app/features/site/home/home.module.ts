@@ -4,9 +4,10 @@ import { SiteLayoutModule } from '../../../blocks/layout/site-layout/site-layout
 import { HomeRoutingModule } from './home-routing.module';
 
 import { HomeComponent } from './components/home/home.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, SliderComponent],
   imports: [CommonModule, SiteLayoutModule, HomeRoutingModule],
 })
 export class HomeModule {}

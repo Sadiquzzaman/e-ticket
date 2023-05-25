@@ -1,7 +1,24 @@
 .header-section {
   min-height: 65px;
-  background-color: #28b37b;
+  background-color: #eeeeee;
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.first-section {
+  display: flex;
+  flex-flow: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.mail-text {
+  color: #6e6d69;
+  font-size: 0.8rem;
+}
+
+.button {
+  border-radius: 2px;
+  border-color: #6e6d69;
 }
